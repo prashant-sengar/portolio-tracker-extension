@@ -33,7 +33,7 @@ headers : {
     })
 .catch(error => {
     const htmlElement = document.getElementById('htmlElement');
-    htmnlElement.innerHTML = error;
+    htmlElement.innerHTML = error;
     console.log(error); 
     }
     );
