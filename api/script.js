@@ -32,8 +32,8 @@ headers : {
     htmlElement.innerHTML = html;
     })
 .catch(error => {
-    const jokeElement = document.getElementById('jokeElement');
-    jokeElement.innerHTML = error;
+    const htmlElement = document.getElementById('htmlElement');
+    htmnlElement.innerHTML = error;
     console.log(error); 
     }
     );
